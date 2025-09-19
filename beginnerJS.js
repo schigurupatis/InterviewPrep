@@ -29,4 +29,28 @@ findEvenOrOdd(7);
 
 
 
+// 3. find the largest number in an array
+
+const largeArr = [12, 45, 7, 89, 23];
+
+
+let result = largeArr[0];
+console.log("Result is:", result);
+function findLargeNumber(largeArr) {
+    for(let i = 0; i< largeArr.length; i++) {
+        console.log("Each number is:", largeArr[i]);
+        let currentValue = largeArr[i];
+        if(currentValue > result) {
+            result = currentValue;
+            console.log("Large Number inside If condition is:", result);
+        }
+        console.log("Large Number outside If condition is:", result);
+    }
+    console.log("Large Number outside Loop is:", result)
+}
+
+findLargeNumber(largeArr);
+
+
+
 
