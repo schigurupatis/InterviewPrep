@@ -53,4 +53,45 @@ findLargeNumber(largeArr);
 
 
 
+// 4. find the smallest number in an array
 
+const smallArr = [12, 45, 7, 89, 23];
+
+let resultSmall = smallArr[0];
+function findSmallNumber(smallArr) {
+    for(let i=0; i<smallArr.length; i++) {
+        let currentValue = smallArr[i];
+        if(currentValue < resultSmall) {
+            resultSmall = currentValue;
+        }
+    }
+    console.log("Small Number in given array is:", resultSmall);
+}
+
+findSmallNumber(smallArr);
+
+
+
+// 5. reverse an array elements
+
+const givenArrayforReverse = [1, 2, 3, 4, 5, 6];
+
+
+function reverseArray(arr) {
+    let i = 0;
+    let j = arr.length - 1;
+    console.log("before loop arr is:", arr);
+
+    while(i < j) {
+        let temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+        
+        i++;
+        j--;
+    }
+    
+    return arr;
+}
+console.log("Given Array is:", givenArrayforReverse)
+console.log("Solved Reverse Array is:", reverseArray(givenArrayforReverse))
