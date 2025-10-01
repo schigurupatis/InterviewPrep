@@ -28,7 +28,24 @@ console.log("VAR Outside the loop Hello World", i);
 
 // FOR Loop Test with LET
 
-for(let j = 0; j < 5; j++) {
-    console.log("LET Inside the loop Hello World", j);
+// for(let j = 0; j < 5; j++) {
+//     console.log("LET Inside the loop Hello World", j);
+// }
+// console.log("LET Outside the loop Hello World", j);
+
+
+
+// LET with 0 
+for(let i=0; i>0; i++) {
+    console.log("PRINGING 0 FROM")
 }
-console.log("LET Outside the loop Hello World", j);
+
+
+// call a function inside loop
+function greet(i) {
+    console.log("Function inside a loop:", i);
+}
+for(let i = 1; i < 5; i++) {
+    greet(i);
+}
+
