@@ -80,7 +80,8 @@ const givenArrayforReverse = [1, 2, 3, 4, 5, 6];
 function reverseArray(arr) {
     let i = 0;
     let j = arr.length - 1;
-    console.log("before loop arr is:", arr);
+    console.log("before loop arr is:", arr);V
+    
 
     while(i < j) {
         let temp = arr[i];
