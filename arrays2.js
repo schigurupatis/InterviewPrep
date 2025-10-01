@@ -22,16 +22,34 @@ var arr = [5, 10, 7, 14, 9, 19, 30];
 
 
 
-let evenNumbersAre = [];
-let oddNumbersAre = [];
-for(let i = 0; i < arr.length; i++) {
-    if(arr[i] % 2 == 0) {
-        evenNumbersAre.push(arr[i]);
-        // console.log("even numbers are:", evenNumbersAre)
-    } else {
-        oddNumbersAre.push(arr[i]);
-        // console.log("odd numbers are:", oddNumbersAre)
-    }
-        console.log("even numbers are:", evenNumbersAre)
-        console.log("odd numbers are:", oddNumbersAre)
+// let evenNumbersAre = [];
+// let oddNumbersAre = [];
+// for(let i = 0; i < arr.length; i++) {
+//     if(arr[i] % 2 == 0) {
+//         evenNumbersAre.push(arr[i]);
+//         // console.log("even numbers are:", evenNumbersAre)
+//     } else {
+//         oddNumbersAre.push(arr[i]);
+//         // console.log("odd numbers are:", oddNumbersAre)
+//     }
+//         console.log("even numbers are:", evenNumbersAre)
+//         console.log("odd numbers are:", oddNumbersAre)
+// }
+
+
+
+// WHILE LOOP
+
+// let i = 5;
+
+// while (i > 3) {
+//     console.log("while loop inside:", i);
+//     i++;
+// }
+
+let i = 0;
+
+while (i < 3) {
+    console.log("while loop inside:", i);
+    i++;
 }
